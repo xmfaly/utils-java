@@ -25,7 +25,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 public class ReadExcelUtils {
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(ReadExcelUtils.class);
     private Workbook wb;
     private Sheet sheet;
     private Row row;
